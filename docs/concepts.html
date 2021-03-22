@@ -5,12 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Concepts</title>
-    <meta name="description" content="This website serves as a record of the universal design centric process taken to design a 3D printable stent crimper. ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="3D Printable Stent Crimper">
+    <meta property="og:type" content="website">
+    <meta name="description" content="This website serves as a record of the universal design centric process taken to design a 3D printable stent crimper by students at Trinity College Dublin. ">
+    <meta property="og:image" content="https://stent.mrph.dev/assets/img/renders/combv2/isoCropped.jpg">
+    <meta name="twitter:image" content="https://stent.mrph.dev/assets/img/renders/combv2/isoCropped.jpg">
+    <meta name="twitter:description" content="This website serves as a record of the universal design centric process taken to design a 3D printable stent crimper by students at Trinity College Dublin. ">
+    <link rel="icon" type="image/jpeg" sizes="632x421" href="assets/img/renders/combv2/isoCropped.jpg">
+    <link rel="icon" type="image/jpeg" sizes="632x421" href="assets/img/renders/combv2/isoCropped.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
@@ -23,6 +31,7 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="navbar-brand" href="/index.html">Stent Crimper</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guide.html">Guide</a></li>
                     <li class="nav-item"><a class="nav-link" href="motivation.html">Motivation</a></li>
                     <li class="nav-item"><a class="nav-link" href="renderings.html">Renderings</a></li>
                     <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
@@ -36,72 +45,109 @@
     <main class="page blog-post-list">
         <section class="clean-block clean-blog-list dark">
             <div class="container">
+                <div class="modal fade" role="dialog" tabindex="-1" id="ninja">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Origami Collapsing Ninja Star</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>One possible concept to provide a uniform radial compression was inspired by an origami collapsing ninja star. This design is comprised of eight identical parallelogram shaped pieces attached together making 45° angles with each other, when all attached they make an octagon in the center.&nbsp; If each piece is moved linearly it can result radial compression. The number of components could be increased to make the aperture more circular, thus providing a more uniform force.</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="ribbon">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Tightening Ribbon Mesh</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>A concept based on providing radial force on the stent via a tightening ribbon mesh was suggested as a crimper option. For this concept, two interlocking sheets cut as to overlap and form a mesh would be wrapped around the internal chamber containing the stent. One sheet could be anchored to the bottom of the container, and the other to the top. A twisting motion on the outside of the container would change the relative positions of the two plates and therefore crimp the stent by tightening the mesh.</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="finger">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Finger Trap</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This idea is inspired from the initial tightening ribbon mesh designed and inspired from Chinese New Year. There is a cylindrical tube formed from interwoven strands.The stent is placed in the middle of the tube (or trap). The ends of the trap are attached to poles at either end of the tube, these poles are sitting in a track or runway, with notches along the track. These poles are attached to a strut that is connected to a pushdown knob/handle at the top of the device. When the knob is pushed down the poles along the track are pushed outward stretching the trap and crimping the stent in the process.</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="cam">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Camming Lobes</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This design focuses on rotating a shape around a non-central axis. By doing this to multiple of the same shape in sync it is able to decrease the internal diameter thus providing a compressive internal force. Since each component needs to move exactly the same it would be possible to join them to a lever or other similar mechanism to easily rotated them all at the same time and the lobe shapes could be designed to allow for multiple diameters of crimping.&nbsp;</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="pressure">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Pressure Chamber</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Another proposed concept was to use pressure to compress the stent instead of using mechanical force. This idea was loosely based on how pressure differences drive lung expansion and contraction. The stent would be surrounded by a flexible, non-permeable membrane. That membrane and stent would be within another airtight chamber. When the pressure inside that chamber increases it would have a higher presser than the insider of the stent meaning it would push inwards towards the stent. Since the chamber completely surrounds the stent and is of constant pressure it would provide uniform contractive forces 360°around the stent</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="hydro">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3> Pneumatic actuator + soft robotics</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This idea leans towards bio-mimicry and takes it inspiration from a cobra attacking its prey oran octopus twisting its tentacles. Given there is an even radial compression that is slowly in-creased and decreased in those animal. A simple press of a button would be able to increase the pressure inside the tubing that would lead to the motion of a pneumatic actuator but a set of miniature ones at that. Furthermore after coiling around the stent, the pressure would also allow the subsequent branches of the device to expand transversely. This would allow a further even yet reliant pressure on the stent, thus making sure it is properly crimped.</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="cog">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3> Cog Design</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This design is built upon the Tightening ribbon mesh shown earlier. It focuses on the tightening mechanism for the strips. In the top right hand corner you can see two handles attached to two cylinders. The strips are fastened/attached to the rotating cylinders. As the user turns them in opposite directions the ribbons put pressure on the the crimping part of the device.</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="block-heading">
                     <h2 class="text-info">Initial Concepts&nbsp;</h2>
                 </div>
-                <div class="block-content">
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5 align-self-center"><a href="assets/img/concepts/ninja.png" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/concepts/ninja.png"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3>Origami Collapsing Ninja Star</h3>
-                                <p>One possible concept to provide a uniform radial compression was inspired by an origami collapsing ninja star. This design is comprised of eight identical parallelogram shaped pieces attached together making 45° angles with each other, when all attached they make an octagon in the center.&nbsp; If each piece is moved linearly it can result radial compression. The number of components could be increased to make the aperture more circular, thus providing a more uniform force.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5 align-self-center"><a href="assets/img/concepts/ribbon.png" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/concepts/ribbon.png"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3>Tightening Ribbon Mesh</h3>
-                                <p>A concept based on providing radial force on the stent via a tightening ribbon mesh was suggested as a crimper option. For this concept, two interlocking sheets cut as to overlap and form a mesh would be wrapped around the internal chamber containing the stent. One sheet could be anchored to the bottom of the container, and the other to the top. A twisting motion on the outside of the container would change the relative positions of the two plates and therefore crimp the stent by tightening the mesh.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-5 align-self-center item"><a data-lightbox="photos" href="assets/img/concepts/fingerTrap.png"><img class="img-fluid" src="assets/img/concepts/fingerTrap.png"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3>Finger Trap</h3>
-                                <p>This idea is inspired from the initial tightening ribbon mesh designed and inspired from Chinese New Year. There is a cylindrical tube formed from interwoven strands.The stent is placed in the middle of the tube (or trap). The ends of the trap are attached to poles at either end of the tube, these poles are sitting in a track or runway, with notches along the track. These poles are attached to a strut that is connected to a pushdown knob/handle at the top of the device. When the knob is pushed down the poles along the track are pushed outward stretching the trap and crimping the stent in the process.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-5 align-self-center item"><a data-lightbox="photos" href="assets/img/concepts/camming.png"><img class="img-fluid" src="assets/img/concepts/camming.png"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3>Camming Lobes</h3>
-                                <p>This design focuses on rotating a shape around a non-central axis. By doing this to multiple of the same shape in sync it is able to decrease the internal diameter thus providing a compressive internal force. Since each component needs to move exactly the same it would be possible to join them to a lever or other similar mechanism to easily rotated them all at the same time and the lobe shapes could be designed to allow for multiple diameters of crimping.&nbsp;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5 align-self-center"><a href="assets/img/concepts/pressurechamber.png" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/concepts/pressurechamber.png"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3>Pressure Chamber</h3>
-                                <p>Another proposed concept was to use pressure to compress the stent instead of using mechanical force. This idea was loosely based on how pressure differences drive lung expansion and contraction. The stent would be surrounded by a flexible, non-permeable membrane. That membrane and stent would be within another airtight chamber. When the pressure inside that chamber increases it would have a higher presser than the insider of the stent meaning it would push inwards towards the stent. Since the chamber completely surrounds the stent and is of constant pressure it would provide uniform contractive forces 360°around the stent</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5 align-self-center"><a href="assets/img/concepts/pneumatic.jpg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/concepts/pneumatic.jpg"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3> Pneumatic actuator + soft robotics</h3>
-                                <p>This idea leans towards bio-mimicry and takes it inspiration from a cobra attacking its prey oran octopus twisting its tentacles. Given there is an even radial compression that is slowly in-creased and decreased in those animal. A simple press of a button would be able to increase the pressure inside the tubing that would lead to the motion of a pneumatic actuator but a set of miniature ones at that. Furthermore after coiling around the stent, the pressure would also allow the subsequent branches of the device to expand transversely. This would allow a further even yet reliant pressure on the stent, thus making sure it is properly crimped.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5 align-self-center"><a href="assets/img/concepts/cogger.png" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/concepts/cogger.png"></a></div>
-                            <div class="col-lg-7 align-self-center">
-                                <h3> Cog Design</h3>
-                                <p>This design is built upon the Tightening ribbon mesh shown earlier. It focuses on the tightening mechanism for the strips. In the top right hand corner you can see two handles attached to two cylinders. The strips are fastened/attached to the rotating cylinders. As the user turns them in opposite directions the ribbons put pressure on the the crimping part of the device.</p>
-                            </div>
-                        </div>
+                <div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#ninja" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/ninja.png" width="100%" style="border-radius: 20px;"></a></div>
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#ribbon" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/ribbon.png" width="100%" style="border-radius: 20px;"></a></div>
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#finger" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/fingerTrap.png" width="100%" style="border-radius: 20px;"></a></div>
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#cam" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/camming.png" width="100%" style="border-radius: 20px;"></a></div>
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#pressure" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/pressurechamber.png" width="100%" style="border-radius: 20px;"></a></div>
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#hydro" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/pneumatic.jpg" width="100%" style="border-radius: 20px;"></a></div>
+                        <div class="col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;margin-bottom: 20px;"><a href="#cog" data-toggle="modal"><img class="shadow-lg" src="assets/img/concepts/cogger.png" width="100%" style="border-radius: 20px;"></a></div>
                     </div>
                 </div>
             </div>
@@ -117,9 +163,9 @@
             </div>
         </footer>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/script.min.js"></script>
