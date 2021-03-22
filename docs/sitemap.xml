@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>/concepts.html</loc>
+        <loc>https://stent.mrph.dev/concepts.html</loc>
     </url>
     <url>
-        <loc>/guide.html</loc>
+        <loc>https://stent.mrph.dev/guide.html</loc>
     </url>
     <url>
-        <loc>/index.html</loc>
+        <loc>https://stent.mrph.dev/index.html</loc>
     </url>
     <url>
-        <loc>/links.html</loc>
+        <loc>https://stent.mrph.dev/links.html</loc>
     </url>
     <url>
-        <loc>/members.html</loc>
+        <loc>https://stent.mrph.dev/members.html</loc>
     </url>
     <url>
-        <loc>/models.html</loc>
+        <loc>https://stent.mrph.dev/models.html</loc>
     </url>
     <url>
-        <loc>/motivation.html</loc>
+        <loc>https://stent.mrph.dev/motivation.html</loc>
     </url>
     <url>
-        <loc>/qfds.html</loc>
+        <loc>https://stent.mrph.dev/qfds.html</loc>
     </url>
     <url>
-        <loc>/renderings.html</loc>
+        <loc>https://stent.mrph.dev/renderings.html</loc>
     </url>
 </urlset>
